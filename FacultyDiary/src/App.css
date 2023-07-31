@@ -1,0 +1,125 @@
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 10px;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+nav li a:hover{
+  border-radius: 5px;
+  background-color: #777171;
+  color: #fff;
+}
+.App {
+  text-align: center;
+}
+
+/* #div1{
+  height: 100vh;
+  background-image: url('');
+}
+ */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.formdiv{
+  height:auto;
+  width:60%;
+  margin: auto;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 40px;
+  /* border:3px solid black; */
+  /* margin:auto; */
+}
+#formout{
+  padding: 20px;
+}
+#formout h1{
+  color:black;
+}
+#div1{
+  background-position: center;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/assortment-teacher-s-day-elements_23-2149044959.avif');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
