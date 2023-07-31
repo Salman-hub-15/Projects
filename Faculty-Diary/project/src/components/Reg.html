@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div className="form">
+        <h1>Register Here</h1>
+        <form>
+            <div>
+            <label>Employee ID:</label>
+            <input type="text" placeholder='Employee ID'></input>
+            </div>
+            <div>
+            <label>First Name: </label>
+            <input type="text" placeholder='First Name'></input>
+
+            <label>Second Name: </label>
+            <input type='text' placeholder='Second Name'></input>
+            </div>
+            <div>
+                <label>DOB:</label>
+                <input type="date" placeholder="dd-mm-yyyy"></input>
+            </div>
+            <div>
+                <label>Nationality: </label>
+                <input type="text" placeholder="Nation"></input>
+            </div>
+            <div>
+                <label>Aadhar No:</label>
+                <input type='text' placeholder='Aadhar No.' maxLength={16} minLength={16}></input>
+            </div>
+
+            <div>
+                <tr>
+                    <td><label>Mobile:</label>
+                <input type='number' minLength={10} required></input></td>
+                <td><label>Email:</label>
+                <input type='email'></input></td>
+                </tr>
+            </div>
+            <div>
+                <label>Residence</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <label>Gender</label>
+                <input type='radio'>Male</input>
+                <input type='radio'>Female</input>
+            </div>
+
+            <div>
+                <label>Experience: </label>
+                <select>
+                    <option>No Experience</option>
+                    <option>1-5 yrs</option>
+                    <option>6-8 yrs</option>
+                    <option>9-15 yrs</option>
+                    <option>16-20 yrs</option>
+                </select>
+            </div>
+            <div>
+            <label>Qualification</label>
+            <select>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>B.Sc</option>
+                <option>B.Arch</option>
+                <option>Ph.D</option>
+                <option>MBA</option>
+                <option>M.Sc</option>
+                <option>B.Com</option>
+                <option>M.Com</option>
+                <option>Doctorate</option>
+            </select>
+            </div>
+            <div>
+                <label>Area/Subject(s) of Expertise</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <label>Office:</label>
+                <textarea></textarea>
+            </div>
+
+            <div>
+                <label>Password: </label>
+                <input type='password' placeholder='Password' minLength={5}></input>
+            </div>
+            <div>
+                <label>Confirm Password:</label>
+                <input type='password' placeholder='Confirm Password' minLength={5}></input>
+            </div>
+            <input type='submit'>Submit</input> 
+        </form>
+        </div>
+    </div>
+</body>
+</html>

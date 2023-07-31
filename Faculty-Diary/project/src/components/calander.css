@@ -1,0 +1,82 @@
+.cal{
+    padding: 50px;
+    background-color:white;
+    width:90%;
+    height: 100vh;
+    border-radius: 20px;
+    margin: auto;
+}
+#hee{
+  color:black;
+}
+#calma{
+    width:100%;
+    padding:20px;
+}
+#calma{
+  background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../images/assortment-teacher-s-day-elements_23-2149044959.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#calander{
+    height:auto;
+    width:40%;
+    border: 1px solid black;
+    float: left;
+}
+h1,h3{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#calm,h1{
+  color: white;;
+    padding-bottom: 5px;
+}
+#calsub{
+    margin-left: 20px ;
+    margin-top: 20px;
+    height: 100px;
+    width: 55%;
+    padding: 10px;
+    /* float: left; */
+    margin: auto;
+    padding-left: 120px;
+    font-size: x-large;
+}
+#calsub {/* Set the height of the div */
+    overflow: hidden; /* Hide the overflow content */
+    position: relative; /* Set the position to relative for absolute positioning of the marquee content */
+  }
+  
+  #calsub ul {
+    position: absolute; /* Set the position to absolute for the marquee content */
+    top: 0; /* Align the top of the content with the top of the div */
+    animation: marquee 10s linear infinite; /* Apply the marquee animation with a duration of 10 seconds and infinite repeat */
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateY(0); } /* Start the animation with no translation */
+    100% { transform: translateY(-100%); } /* End the animation with a full translation of the content height (-100%) */
+  }
+  #table{
+    float: left;
+    margin-top: 25px;
+    padding-top: 20px;
+    border: 5px solid black;
+  }
+  #calsub ul {
+    /* height: 200px; remove fixed height */
+    height: auto; /* add this to make height adjust automatically */
+    overflow-y: auto;
+  }
+  #table .table {
+    margin-bottom: 0;
+    /* height: 200px; remove fixed height */
+    height: auto; /* add this to make height adjust automatically */
+  }
+  i{
+    color: black;
+  }
+  

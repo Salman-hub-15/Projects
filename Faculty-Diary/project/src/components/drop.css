@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px */
+    #nav ul {
+      display: none;
+    }
+    #nav button.menu-toggle {
+      display: block;
+    }
+    #nav button.menu-toggle:focus + ul {
+      display: block;
+    }
+    #nav li {
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Styles for screens between 601px and 768px */
+    #nav ul {
+      display: none;
+    }
+    #nav button.menu-toggle {
+      display: block;
+    }
+    #nav button.menu-toggle:focus + ul {
+      display: block;
+    }
+    #nav li {
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px */
+    #nav ul {
+      display: block;
+    }
+    #nav button.menu-toggle {
+      display: none;
+    }
+    #nav li {
+      display: inline-block;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* Styles for screens above 1024px */
+    #nav ul {
+      display: block;
+    }
+    #nav button.menu-toggle {
+      display: none;
+    }
+    #nav li {
+      display: inline-block;
+    }
+  }
+  

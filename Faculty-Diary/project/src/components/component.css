@@ -1,0 +1,132 @@
+#home{
+    padding: 55px;
+}
+
+#inner {
+    /* add your styles here */
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #ccc;
+    opacity: 0.5; /* add the opacity here */
+  }
+  
+  #inner * {
+    /* reset the opacity for all children */
+    opacity: 1;
+  }
+
+.home1{
+    color:rgb(235, 245, 254)
+}
+
+
+#conta1{
+    /* background-color: beige; */
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../images/assortment-teacher-s-day-elements_23-2149044959.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#conta1{
+    padding-left:20px ;
+}
+#card-body h1 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+#backk,label{
+    color: black;
+}
+.btn{
+    margin:10px;
+    background-color: rgb(55, 97, 83);
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.db1{
+    height:auto;
+    width:80%;
+    border-radius: 25px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#db2{
+    padding: 60px;
+    padding-top: 40px;;
+
+}
+#db2 h2{
+    text-align: center;
+}
+
+#db2 table tr td,th{
+    padding-top: 2px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+}
+tr td{
+    size: 75px;
+    
+}
+th,tr,td{
+    text-align: center;
+    color: black;
+}
+#db2 table{
+    width: 100%;
+  margin: 0 auto;
+  
+}
+
+.btn:hover{
+    background-color: rgb(84, 216, 135);
+    color:aliceblue
+}
+
+.tab{
+    margin: auto;
+    justify-content: center;
+}
+
+tr{
+    margin:auto
+}
+
+tr label{
+    padding-right:15px;
+    color:black;
+    font-size: x-large;
+}
+
+input{
+    border-radius:10px;
+}
+p{
+    font-size: smsall;
+}
+
+#he{
+    font-size: 80px;
+    font-family: Kadwa;
+}
+#marq{
+    height:50px
+}
+
+/* button{
+    margin: auto;
+} */
+#regs{
+    color: black;
+}
+#dtb,.db1{
+    position: relative;
+    overflow-x:auto;
+    overflow-y:auto;
+
+}

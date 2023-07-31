@@ -1,0 +1,322 @@
+/* #one .container{
+    background-color: aqua;
+    color:rgb(255, 255, 255);
+    height: 100vh;
+    margin: auto;
+} */
+#table{
+  border: 0;
+  color:aliceblue
+}
+
+#background{
+  background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../images/assortment-teacher-s-day-elements_23-2149044959.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imaggg{
+  width: 60%;
+  height: 150px;
+  border-radius: 100%;
+}
+
+#padd{
+  padding-left: 70px;
+  color: white;
+}
+.col
+#mainnn{
+  background-color: antiquewhite;
+}
+#mainnn h1{
+  color:rgb(255, 255, 255)
+}
+Row h2{
+  padding: 0;
+}
+#one{
+  padding: 50px;
+  height: auto;
+}
+.col-sm-6 ul li{
+  font-size: 17px;
+  color:rgb(255, 255, 255)
+}
+#divs{
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+}
+#li{
+  font-size: 20px;
+}
+.workshops div{
+  font-size: 20px;
+  color:rgb(255, 255, 255)
+}
+.col-sm-6 h2{
+  color:rgb(255, 255, 255);
+  font-family: kawada;
+  text-decoration: underline;
+}
+#un{
+  margin: auto;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#roww{
+padding-left: 10%;
+}
+#hh{
+  color:rgb(255, 255, 255);
+}
+#cbr,#car{
+  background-color: aquamarine;
+}
+
+.col-sm-4 ,.col-sm-6,.col-sm-11,.col-sm-5{
+  margin: 20px;
+  padding: 20px;
+}
+.col-md-4{
+  background-color: rgb(0, 0, 0);
+}
+h3{
+  color:white;
+}
+#rowin{
+  border-radius: 75px;
+}
+#prof1{
+  background-color: rgb(16, 17, 18);
+  border-radius: 20px;
+  padding-bottom: 30px ;
+  padding-top: 20px;
+}
+#card{
+  border-radius: 20px;
+  /* background-color: black; */
+  color:white;
+}
+
+#cert{
+  background-color:black;
+  border-radius:20px;
+  padding:20px;
+}
+
+/*
+
+#a {
+    background-color: aliceblue;
+    border-radius: 40%;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  #main {
+    padding: 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../../images/pic.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+  }
+
+  #main1 {
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #pics {
+    display: inline;
+    width: 50%;
+  }
+  #img{
+        display: inline;
+        width: 60%;
+        height: 250px;
+        margin: 10%;
+        border-radius: 50%;
+        
+  }
+
+  #aa {
+    padding-top: 3%;
+    display: flex;
+    width: 100%;
+    
+    
+  }
+
+  #b {
+    background-color: rgb(255, 255, 255);
+    border-radius:20px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2%;
+    height:800px
+  }
+
+  #right {
+    margin-left: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 100%;
+    padding: 3%;
+   
+    height:800px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #skills {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+  }
+
+  #ski {
+    width: 100%;
+    height: 50%;
+    padding: 3%;
+
+    margin-bottom: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  #ski1 {
+    margin-left: 2%;
+    width: 100%;
+    height: 50%;
+    padding: 3%;
+
+    margin-bottom: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  #ski img {
+    display: inline;
+    margin: 10%;
+    width: 30%;
+  }
+
+  #h5 {
+    padding-top: 10px;
+  }
+
+  #ski1 img{
+    display: inline;
+    width: 30%;
+    margin: 10%;
+  }
+
+  #work {
+
+    width: 100%;
+    padding: 3%;
+    display: inline-block;
+    margin-bottom: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  #work1 {
+
+    width: 100%;
+    padding: 3%;
+    display: inline-block;
+    margin-bottom: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  #work2 {
+
+    width: 100%;
+    padding: 3%;
+    display: inline-block;
+    margin-bottom: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+
+  #edit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 50%;
+  }
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 50%;
+  }
+
+#table {
+    width: 100%;
+    margin: 10%;
+    border-collapse: collapse;
+}
+#tr {
+    
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+@media (max-width: 767px) {
+    #tr {
+        display: block;
+        width: 100%;
+    }
+    #tr:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+#input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    padding-right: 5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    #input {
+      width: 90%;
+    }
+  }
+
+  .prof{
+    color:white;
+    text-align:center;
+  } */

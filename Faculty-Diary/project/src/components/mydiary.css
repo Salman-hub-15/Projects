@@ -1,0 +1,153 @@
+/* CSS for Mydiary component */
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/assortment-teacher-s-day-elements_23-2149044959.avif');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  } */
+
+/* . 
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+   */
+/* Set styles for title */
+#title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#tbr{
+    border:2px solid black;
+}
+
+/* Set styles for radio buttons */
+label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#content {
+    margin: 60px 0px 0px 0px;
+    padding: 0px 0px 119px 0px;
+}
+
+/* Set styles for inner content */
+#innercontent {
+    margin-top: 20px;
+}
+
+/* Set styles for form */
+form {
+    margin-top: 20px;
+}
+
+/* Set styles for text inputs and textarea */
+input[type="date"],
+input[type="time"],
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Set styles for submit button */
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Set styles for div1 and subtitle */
+.div1 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width:60%;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Set styles for divtext */
+.divtext {
+    margin-top: 20px;
+}
+
+.divtext h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.divtext h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Set styles for text and textarea inside divtext */
+#text,
+#text1 {
+    min-height: 100px;
+}
+
+/* Set styles for sub div */
+#sub {
+    text-align: center;
+}
+
+.but {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width:100px
+}
+
+.btn:hover{
+    background-color:  rgb(25, 24, 24);;
+}
+
+.but1 {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width:150px
+}
+
+.btn1:hover{
+    background-color: rgb(111, 111, 111);
+}
+
+#tle{
+    color:black
+}
