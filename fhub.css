@@ -1,0 +1,140 @@
+.nav1{
+    padding:5px;
+    background-color:white;
+    text-align:right;
+    border-style:inset;
+    border-radius: 10px;
+    margin:auto;
+    height:50px;
+    margin-bottom:20px;
+}
+.nav1 ul{
+    display:inline-block;
+    text-align:right;
+    border-radius:5px;
+    padding-bottom:10px;
+
+}
+.nav1 ul li{
+    color:black;
+    margin-top: 8px;
+    height:20px;
+    font-size: 15px;
+    display: inline-block;
+    padding:5px;
+    text-align:center;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    text-align: right;
+}
+.nav1 ul li:hover{
+    color:azure;
+
+}
+.nav1 ul li a:hover{
+    color:red;
+    background-color: gainsboro;
+    border:1px solid gainsboro;
+    border-radius:5px;
+}
+.foot
+{
+    background-color: black;
+    color:white;
+    margin:auto;
+    margin-top:10px;
+    position:static;
+}
+#cont1{
+    margin:auto;
+    width:30%;
+    height:45%;
+    border:5px black;
+    box-shadow: 5px 4px 7px 8px;
+    border-radius: 10px;
+    text-align: center;
+    padding:5px;
+    background-color:white;
+}
+#h2{
+    color:red;
+    text-align: center;
+    text-shadow: 1px 2px 3px;
+    margin:10px;
+    font-size:20px;
+}
+#head
+{
+    background-image: url("images/bkHead.jpeg");
+    text-align:center;
+    border-radius:10px;
+    margin-bottom:10px;
+    font-style:Brush Script MT;
+    width:auto;
+    }
+#head h1 header{
+    color:chocolate;
+    text-shadow: 1px 2px 3px 2px grey;
+    font-size:40px;
+    font-feature-settings:"jalt";
+    font-family: 'Brush Script MT', cursive;
+    }
+#head h3{
+    color:rgb(239, 233, 220);
+       }
+       #gallery
+       {
+           height:1000px;
+           width:98%;
+           margin:8;
+           border:1px solid blueviolet;
+           border-radius:30px;
+           box-shadow: 4px 4px 8px 5px black;
+           padding:5px;
+           border-style: inset;
+           text-align:center;
+           box-sizing: content-box;
+           box-decoration-break: clone;
+           box-shadow: 5px 5px 5px 3px #003060;
+       
+       }
+       
+       .galleryRow .gal
+       {
+           height:300px;
+           width:250px;
+           margin-left: 30px;
+           float:left;
+           margin-bottom: 35px;
+       }
+       .galleryRow .gal img
+       {
+           height:190px;
+           width:200px;
+           border-radius:30px;
+           box-shadow: 4px 4px 5px 5px black;
+           margin:auto;
+       }
+       .galleryRow .gal .imgName{
+           color:black;
+           text-shadow:5px #003060;
+           background: border-box;
+           background-color:coral;
+           margin-top:8px;
+           border-radius:8px;
+       }
+       .galleryRow .gal img:hover
+       {
+       
+           height:230px;
+           width:230px;
+           box-shadow: 5px 6px 9px 7px;
+           border-radius:20px 20px 20px 20px;
+       }
+.image img:hover{
+height:220px;
+width:320px;
+}

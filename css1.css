@@ -1,0 +1,192 @@
+
+#nav{
+    text-align:center;
+    border-style:inset;
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    margin:auto;
+    height:100px;
+    margin-bottom:20px;
+    padding:3px;
+}
+#nav ul{
+    display:inline-block;
+    text-align:right;
+    border-radius:5px;
+
+}
+#nav ul li{
+    color:#003060;
+    margin-top: 8px;
+    height:20px;
+    font-size: 20px;
+    display: inline-block;
+    width: 90px;
+    padding:10px;
+    background:white;
+    border-radius: 10px;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+#nav ul li:hover{
+    background-color: #9ca6b1;
+    color:cyan;
+}
+#nav ul li a:hover{
+    color:red;
+}
+
+#con{
+    width:fit-content;
+    border:10px blueviolet;
+    font-size:20px;
+    border-style: inset;
+    border-radius: 8px;
+    text-align:inherit;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-sizing: content-box;
+    box-decoration-break: clone;
+    box-shadow: 5px 5px 5px 3px #003060;
+    margin:auto;
+    color:red;
+    text-size-adjust:unset;
+    text-shadow: 1px 1px 3px brown;
+}
+#abt{
+    width:fit-content;
+    border:1px blueviolet;
+    border-style: inset;
+    text-align:inherit;
+   padding:10px;
+    box-sizing: content-box;
+    box-decoration-break: clone;
+    box-shadow: 5px 5px 5px 3px #003060;
+    margin:auto;
+    color:red;
+    text-size-adjust:unset;
+    border-radius: 10px;
+}
+#sign{
+    width:fit-content;
+    border:1px blueviolet;
+    border-style: inset;
+    text-align:center;
+   padding:10px;
+    box-sizing: content-box;
+    box-decoration-break: clone;
+    box-shadow: 5px 5px 5px 3px #003060;
+    margin:auto;
+    color:red;
+    text-size-adjust:unset;
+
+}
+#table table{
+    color:#003060;
+    align-content: center;
+}
+#table thead{
+    background-color: aquamarine;
+}
+#table thead th{
+    color:black;
+    padding:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#table tbody body tr:nth-child(odd){
+    padding:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#table tbody tr td{
+    border:1px solid rgb(15, 44, 130);
+}s
+
+#table table tbody tr:nth-child(odd){
+    background-color:darkblue;
+
+}
+#table table tbody tr:nth-child(even){
+background-color:lightblue;
+text-decoration: none;
+}
+#table table tbody tr td:hover{
+    background-color:greenyellow;
+    text-decoration: none;
+}
+#table table tbody tr a:hover{
+    color:red;
+    text-decoration: none;
+}
+#table table tbody tr td a:{
+    background: fixed;
+    border-style:inset;
+    border-radius: 3px;
+}
+#gallery
+{
+    height:900px;
+    width:98%;
+    margin:8;
+    border:1px solid blueviolet;
+    border-radius:30px;
+    box-shadow: 4px 4px 8px 5px black;
+    padding:5px;
+    border-style: inset;
+    text-align:center;
+    box-sizing: content-box;
+    box-decoration-break: clone;
+    box-shadow: 5px 5px 5px 3px #003060;
+
+}
+
+.galleryRow .gal
+{
+    height:300px;
+    width:250px;
+    margin-left: 30px;
+    float:left;
+    margin-bottom: 35px;
+}
+.galleryRow .gal img
+{
+    height:190px;
+    width:200px;
+    border-radius:30px;
+    box-shadow: 4px 4px 5px 5px black;
+    margin:auto;
+}
+.galleryRow .gal .imgName{
+    color:black;
+    text-shadow:5px #003060;
+    background: border-box;
+    background-color:coral;
+}
+.galleryRow .gal img:hover
+{
+
+    height:260px;
+    width:260px;
+    box-shadow: 5px 6px 9px 7px;
+    border-radius:20px 20px 20px 20px;
+}
+@media screen and (min-width:300px) and (max-width:600px)
+{
+    body{
+        background-color: aqua;
+    }
+    .galleryRow .gal
+{
+    height:300px;
+    width:250px;
+    margin-left: 30px;
+    float:left;
+    margin-bottom:35px;
+
+
+}
+
